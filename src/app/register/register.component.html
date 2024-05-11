@@ -1,0 +1,15 @@
+<div>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name">
+  </div>
+  <div>
+    <label for="lastname">Apellido:</label>
+    <input type="text" id="lastname">
+  </div>
+  <button (click)="registrarEstudiante()">Registrarse</button>
+  
+  <div *ngIf="registrado">
+    Se registro correctamente
+    123456
+  </div>
+  

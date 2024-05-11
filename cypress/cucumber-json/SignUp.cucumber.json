@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Sign up",
+    "line": 1,
+    "id": "sign-up",
+    "tags": [],
+    "uri": "SignUp.feature",
+    "elements": [
+      {
+        "id": "sign-up;sign-up-succesfully",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Sign up succesfully",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "un estudiante nuevo",
+            "result": {
+              "status": "passed",
+              "duration": 627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "quiere registrarse con nombre \"Estudiante\"",
+            "result": {
+              "status": "passed",
+              "duration": 323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "y el apellido \"apellido\"",
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "hace click en \"Registrarse\"",
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "se registra correctamente avisandonos  \"Se registro correctamente\"",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "muestra el numero de estudiante 123456",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
